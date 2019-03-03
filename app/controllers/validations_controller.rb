@@ -1,5 +1,5 @@
 class ValidationsController < ApplicationController
   def create
-    render nothing: true
+    head :ok
   end
 end
